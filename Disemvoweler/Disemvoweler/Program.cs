@@ -18,6 +18,10 @@ namespace Disemvoweler
             // keep the console open
             Console.ReadKey();
         }
+        /// <summary>
+        /// Dissects a string and removes the vowels from it
+        /// </summary>
+        /// <param name="input">string to be analyzed</param>
         static void Disemvoweler(string input)
         {
             // Declare StringBuilders to hold the appended strings as they are created
